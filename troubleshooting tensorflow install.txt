@@ -1,0 +1,2 @@
+conda update pip
+pip install --ignore-installed tensorflow
