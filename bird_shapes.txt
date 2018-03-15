@@ -1,0 +1,25 @@
+Auk
+Blackbird
+Chickadee
+Crow/Jay
+Dove
+Duck
+Finch
+Flycatcher
+Game Bird
+Gull/Tern
+Hawk/Falcon
+Heron
+Hummingbird
+Kingfisher
+Nuthatch
+Owl
+Parrot
+Seabird
+Shorebird
+Sparrow
+Swallow/Swift
+Thrush
+Warbler
+Woodpecker
+Wren
