@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>State-side Species</title>
+    <!-- Font Awesome -->
+    <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Bellefair|Dosis|Almendra+Display|Shadows+Into+Light+Two" rel="stylesheet">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <!-- Leaflet -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.0.2/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet@1.0.2/dist/leaflet.js"></script>
+    <!-- Favicon -->
+    <link href="/static/images/favicon.ico" rel="icon" type="image/x-icon" />
+    <!-- states center & zoom -->
+    <script src="../static/data/state_centroids.js"></script>
+    <script src="../static/data/region_centroids.js"></script>
+    <!-- map js -->
+    <script type="text/javascript" src="/static/js/stateMap.js"></script>
+    <!-- Plotly -->
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    <!-- Our CSS -->
+    <link rel="stylesheet" type="text/css" href="../static/css/style.css">
+</head>
+<body>
+    <div class="header">
+        <div class="row">
+            <div class="col-md-1 goHome">
+                <a href="/"><i class="fas fa-home"></i></a>
+            </div>
+            <div class="col-md-10"><h2 id="stateName"></h2></div>
+            <div class="col-md-1">
+                <div class="stateSelect">
+                    <label for="stateDrop">State:</label>
+                    <select id="stateDrop" onchange="optionChanged(this.value)" style="color: black; border-radius: 3px;">
+                    </select>
+                </div>
+            </div>
+        </div>    
+    </div>
+
+    <!-- Images-->
+    <div id="polaroid">
+        <figure style="width: 85px; padding-top: 10px; margin: 0;">
+            <p>Most often observed species:</p>
+        </figure>
+        <!-- Image 1 -->
+        <figure>
+            <a target="_blank" id="bird1"></a>
+        </figure>
+        <!-- Image 2 -->
+        <figure>
+            <a target="_blank" id="bird2"></a>
+        </figure>
+        <!-- Image 3 -->
+        <figure>
+            <a target="_blank" id="bird3"></a>
+        </figure>
+        <!-- Image 4 -->
+        <figure>
+            <a target="_blank" id="bird4"></a>
+        </figure>
+        <!-- Image 5 -->
+        <figure>
+            <a target="_blank" id="bird5"></a>
+        </figure>
+    </div>
+ 
+    <div class="page">
+        <div class="row">
+            <!-- State map inserted here -->
+            <div class="col-md-6">
+                <div class="map-container">
+                    <div id="stateMap"></div>
+                </div>
+            </div>
+            <div class="col-md-6">
+            <!-- Top 10 species chart inserted here -->
+                <div id = "sitesChart">
+                    <script src="/static/js/stateJS.js"></script>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer"><p>Birding Oracle</p></div>
+  
+</body>
+</html>
