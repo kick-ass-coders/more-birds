@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>State-side Species</title>
+    <title>State Search</title>
     <!-- Font Awesome -->
     <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
     <!-- Google Fonts -->
@@ -43,11 +43,12 @@
         </div>    
     </div>
 
+    <div style="padding-top: 5%; margin: auto; text-align: center;">
+        <h1>Most Observed Species</h1>
+    </div>
+
     <!-- Images-->
     <div id="polaroid">
-        <figure style="width: 85px; padding-top: 10px; margin: 0;">
-            <p>Most often observed species:</p>
-        </figure>
         <!-- Image 1 -->
         <figure>
             <a target="_blank" id="bird1"></a>
@@ -71,19 +72,23 @@
     </div>
  
     <div class="page">
+            <h1 style = "margin: auto; text-align: center; padding-top: 10%; padding-bottom: 5%">
+                    Top 10 Birding Locations</h1>
         <div class="row">
-            <!-- State map inserted here -->
-            <div class="col-md-6">
-                <div class="map-container">
-                    <div id="stateMap"></div>
-                </div>
+            <div class="col-md-1"></div>
+            <div class="col-md-7">
+        <!-- State map inserted here -->
+            <div class="map-container">
+                <div id="stateMap"></div>
             </div>
-            <div class="col-md-6">
-            <!-- Top 10 species chart inserted here -->
-                <div id = "sitesChart">
-                    <script src="/static/js/stateJS.js"></script>
-                </div>
+        </div>
+        <div class="col-md-3">
+        <!-- Top 10 species chart inserted here -->
+            <div id = "sitesChart">
+                <script src="/static/js/stateJS.js"></script>
             </div>
+        </div>
+        <div class="col-md-2"></div>
         </div>
     </div>
 

@@ -411,12 +411,16 @@ figure, figcaption { /*add any other html5 elements you use*/
     /*setting a width and adding overflow:hidden will clear the floats we're going to apply to figure*/
     width:100%;
     overflow:hidden;
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    flex-wrap:wrap;
     }
-
+ 
 #polaroid figure {
     float:left; /*places the images in a horizontal line*/
     position:relative; /*allows precise positioning of the tape in step 5- see support section below for more info*/
-    width: 220px; /*width of the images*/
+    width: 180px; /*width of the images*/
     margin: 10px 20px; /*space between the images*/
     padding: 3px 3px 10px 3px; /*size of the frame*/
     /*give the frame's background colour a gradient*/
@@ -592,8 +596,9 @@ figure:nth-child(even):before {
 
 /* Map Styling */
 .map-container {
-    height: 650px;
-    padding-left: 10%;
+    height: 550px;
+    width: 700px;
+    margin: auto;
     /* padding-bottom: 20px; */
     position: relative;
 }
@@ -606,9 +611,7 @@ figure:nth-child(even):before {
 
 /* Chart formatting */
 #sitesChart, #regionChart {
-    margin: 0; 
-    height:500px; 
-    width: 700px;
+
 }
 
 .page {
