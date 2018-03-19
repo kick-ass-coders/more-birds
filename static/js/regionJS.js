@@ -50,34 +50,46 @@ function regionChart(Region){
   url = 'regionData/'+Region;
   Plotly.d3.json(url, function(error, regionData){
     if (error) return console.warn(error);
-  var values = regionData.map(record => record.species_number);
-  var sites = regionData.map(record => record.locName);
-  var colors = ["#9e9ac8", "#b5afed", "#f6b2ff", "#ffc1df", "#ffebbc", "#ffc849", "#ff975b", "#ff830f", "#db6600", "#843c09"]
+    var values = regionData.map(record => record.species_number);
+    var sites = regionData.map(record => record.locName);
+    var colors = ["#9e9ac8", "#b5afed", "#f6b2ff", "#ffc1df", "#ffebbc", "#ffc849", "#ff975b", "#ff830f", "#db6600", "#843c09"]
   var data = [
     {
-      x: [1,2,3,4,5,6,7,8,9,10],
-      y: values,
+      x: values,
+      y: [10,9,8,7,6,5,4,3,2,1],
       type: 'bar',
       text: sites,
       marker: {
         color: colors
-      }
+      }, 
+      orientation: 'h'
     }
   ];
 
   var layout = {
+    width: 300,
+    height: 400,
+    margin: {
+            l: 20,
+            r: 50,
+            b: 20,
+            t: 20,
+            pad: 20
+          },
     xaxis: {
-      dtick: 1,
-      title: "Top 10 Birding Sites"
+      showline: false,
+      showticklabels: false
+    },
+    yaxis: {
+      showticklabels: false
     },
     plot_bgcolor: 'rgba(0,0,0,0)',
     paper_bgcolor: 'rgba(0,0,0,0)'
   };
 
   Plotly.newPlot('regionChart', data, layout);
-  }
+}
 )}
-
 
 function birdPhotos(region){
   url = 'birdRegData/'+region;
@@ -93,8 +105,9 @@ function birdPhotos(region){
     if(links[i] !== "no link"){
       feature.href = links[i];
     }
-    
+
     var birdImg = document.createElement("img");
+    birdImg.style = "width: 120px;"
     if(images[i] === "no img"){
       birdImg.src = "../static/images/no-bird.png"
     } else {
