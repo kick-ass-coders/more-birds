@@ -258,86 +258,6 @@ input[type="text"]:placeholder { /* Most modern browsers support this now. */
    color:    #c8af7d;
 }
 
-/* Daterange Picker */
-.pull-right {
-    background-color: #420101d7;
-    margin-bottom: 5px;
-    border-radius: 5px;
-    padding: 5px;
-    color: #c8af7d;
-}
-
-.dropdown-menu {
-    background-color: #420101 !important;
-}
-
-.dropdown-menu li {
-    background-color: #5e0101 !important;
-    color: #c8af7d !important;
-    border: 1px solid #c8af7d !important;
-}
-
-.dropdown-menu li:hover {
-    background-color: #c8af7d !important;
-    color: #5e0101 !important;
-    border: 1px solid #5e0101 !important;
-}
-
-.dropdown-menu .active {
-    background-color: #976211 !important;
-    color: #c8af7d !important;
-    border: 1px solid #c8af7d !important;
-}
-.dropdown-menu .fa-calendar {
-    color: #976211 !important;
-}
-
-.dropdown-menu .calendar-table {
-    background-color: #c8af7d !important;
-    border: 1px solid #976211 !important;
-}
-
-.landingPage #stateHotSpots img {
-    max-width: 200px;
-}
-
-.dropdown-menu button {
-    text-align: center !important;
-}
-
-.right .input-mini {
-    background-color: #c8af7d !important;
-    border: 1px solid #976211 !important;
-    color: #420101 !important;
-}
-
-.calendar-table {
-    color: #420101 !important;
-}
-
-.calendar-table .off {
-    color: #c8af7d !important;
-}
-
-.calendar-table .in-range {
-    background-color: #976211 !important;
-}
-
-.weekend, .off, .available {
-    background-color: #af9664 !important;
-}
-
-select {
-    background-color: #420101d7;
-    border: none !important;
-    color: #c8af7d !important;
-    margin-bottom: 2px !important;
-}
-
-select i {
-    color: #c8af7d !important
-}
-
 /* Styling for species page */
 
 #speciesMap {
@@ -516,20 +436,6 @@ figure:nth-child(even):before {
     list-style: none;
 }
 
-/* Styling for distribution page */
-.distrMap {
-    text-align: center;
-    width: 100%;
-    height: 100%;
-    padding-top: 20px;
-}
-
-.distrMap .fa-play-circle {
-    font-size: 100px;
-    margin-top: 50%;
-    text-align: center;
-}
-
 /* Styling for map */
 .state {
     fill: none;
@@ -607,11 +513,6 @@ figure:nth-child(even):before {
  
     height: 500px; 
     margin: 0;
-}
-
-/* Chart formatting */
-#sitesChart, #regionChart {
-
 }
 
 .page {
