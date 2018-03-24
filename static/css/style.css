@@ -617,3 +617,8 @@ figure:nth-child(even):before {
 .page {
    min-height: 100%;
 }
+
+/* Hiding the plotly toolbar */
+.modebar{
+    display: none !important;
+}
