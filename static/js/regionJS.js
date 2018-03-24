@@ -107,7 +107,7 @@ function birdPhotos(region){
     }
 
     var birdImg = document.createElement("img");
-    birdImg.style = "width: 120px;"
+    birdImg.style = "width: 155px;"
     if(images[i] === "no img"){
       birdImg.src = "../static/images/no-bird.png"
     } else {
