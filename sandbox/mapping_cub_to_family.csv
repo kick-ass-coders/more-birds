@@ -1,0 +1,201 @@
+index,folder_name,common_name,common_name,family
+1,001.Black_footed_Albatross,Black footed Albatross,Black-footed albatross,Albatrosses
+2,002.Laysan_Albatross,Laysan Albatross,Laysan Albatross,Albatrosses
+3,003.Sooty_Albatross,Sooty Albatross,Sooty Albatross,Albatrosses
+4,004.Groove_billed_Ani,Groove billed Ani,Groove-billed ani,Cuckoos
+5,005.Crested_Auklet,Crested Auklet,Crested Auklet,"Auks, Murres, and Puffins"
+6,006.Least_Auklet,Least Auklet,Least Auklet,"Auks, Murres, and Puffins"
+7,007.Parakeet_Auklet,Parakeet Auklet,Parakeet Auklet,"Auks, Murres, and Puffins"
+8,008.Rhinoceros_Auklet,Rhinoceros Auklet,Rhinoceros Auklet,"Auks, Murres, and Puffins"
+9,009.Brewer_Blackbird,Brewer Blackbird,Brewers blackbird,Troupials and Allies
+10,010.Red_winged_Blackbird,Red winged Blackbird,Red-winged Blackbird,Troupials and Allies
+11,011.Rusty_Blackbird,Rusty Blackbird,Rusty Blackbird,Troupials and Allies
+12,012.Yellow_headed_Blackbird,Yellow headed Blackbird,Yellow-headed Blackbird,Troupials and Allies
+13,013.Bobolink,Bobolink,Bobolink,Troupials and Allies
+14,014.Indigo_Bunting,Indigo Bunting,Indigo Bunting,Cardinals and Allies
+15,015.Lazuli_Bunting,Lazuli Bunting,Lazuli Bunting,Cardinals and Allies
+16,016.Painted_Bunting,Painted Bunting,Painted Bunting,Cardinals and Allies
+17,017.Cardinal,Cardinal,Northern Cardinal,Cardinals and Allies
+18,018.Spotted_Catbird,Spotted Catbird,Spotted Catbird,#N/A
+19,019.Gray_Catbird,Gray Catbird,Gray Catbird,#N/A
+20,020.Yellow_breasted_Chat,Yellow breasted Chat,Yellow-breasted Chat,Yellow-breasted Chat
+21,021.Eastern_Towhee,Eastern Towhee,Eastern Towhee,New World Buntings and Sparrows
+22,022.Chuck_will_Widow,Chuck will Widow,Chuck-wills-widow,Nightjars and Allies
+23,023.Brandt_Cormorant,Brandt Cormorant,Brandts cormorant,Cormorants and Shags
+24,024.Red_faced_Cormorant,Red faced Cormorant,Red-faced Cormorant,Cormorants and Shags
+25,025.Pelagic_Cormorant,Pelagic Cormorant,Pelagic Cormorant,Cormorants and Shags
+26,026.Bronzed_Cowbird,Bronzed Cowbird,Bronzed Cowbird,Troupials and Allies
+27,027.Shiny_Cowbird,Shiny Cowbird,Shiny Cowbird,Troupials and Allies
+28,028.Brown_Creeper,Brown Creeper,Brown Creeper,Treecreepers
+29,029.American_Crow,American Crow,American Crow,"Crows, Jays, and Magpies"
+30,030.Fish_Crow,Fish Crow,Fish Crow,"Crows, Jays, and Magpies"
+31,031.Black_billed_Cuckoo,Black billed Cuckoo,Black-billed Cuckoo,Cuckoos
+32,032.Mangrove_Cuckoo,Mangrove Cuckoo,Mangrove Cuckoo,Cuckoos
+33,033.Yellow_billed_Cuckoo,Yellow billed Cuckoo,Yellow-billed Cuckoo,Cuckoos
+34,034.Gray_crowned_Rosy_Finch,Gray crowned Rosy Finch,Gray crowned Rosy Finch,"Finches, Euphonias, and Allies"
+35,035.Purple_Finch,Purple Finch,Purple Finch,"Finches, Euphonias, and Allies"
+36,036.Northern_Flicker,Northern Flicker,Northern Flicker,Woodpeckers
+37,037.Acadian_Flycatcher,Acadian Flycatcher,Acadian Flycatcher,Tyrant Flycatchers
+38,038.Great_Crested_Flycatcher,Great Crested Flycatcher,Great Crested Flycatcher,Tyrant Flycatchers
+39,039.Least_Flycatcher,Least Flycatcher,Least Flycatcher,Tyrant Flycatchers
+40,040.Olive_sided_Flycatcher,Olive sided Flycatcher,Olive-sided Flycatcher,Tyrant Flycatchers
+41,041.Scissor_tailed_Flycatcher,Scissor tailed Flycatcher,Scissor-tailed Flycatcher,Tyrant Flycatchers
+42,042.Vermilion_Flycatcher,Vermilion Flycatcher,Vermilion Flycatcher,Tyrant Flycatchers
+43,043.Yellow_bellied_Flycatcher,Yellow bellied Flycatcher,Yellow-bellied Flycatcher,Tyrant Flycatchers
+44,044.Frigatebird,Frigatebird,Lesser frigatebird,Frigatebirds
+45,045.Northern_Fulmar,Northern Fulmar,Northern Fulmar,#N/A
+46,046.Gadwall,Gadwall,Gadwall,"Ducks, Geese, and Waterfowl"
+47,047.American_Goldfinch,American Goldfinch,American Goldfinch,"Finches, Euphonias, and Allies"
+48,048.European_Goldfinch,European Goldfinch,European Goldfinch,"Finches, Euphonias, and Allies"
+49,049.Boat_tailed_Grackle,Boat tailed Grackle,Boat-tailed Grackle,Troupials and Allies
+50,050.Eared_Grebe,Eared Grebe,Eared Grebe,Grebes
+51,051.Horned_Grebe,Horned Grebe,Horned Grebe,Grebes
+52,052.Pied_billed_Grebe,Pied billed Grebe,Pied billed Grebe,Grebes
+53,053.Western_Grebe,Western Grebe,Western Grebe,Grebes
+54,054.Blue_Grosbeak,Blue Grosbeak,Blue Grosbeak,Cardinals and Allies
+55,055.Evening_Grosbeak,Evening Grosbeak,Evening Grosbeak,"Finches, Euphonias, and Allies"
+56,056.Pine_Grosbeak,Pine Grosbeak,Pine Grosbeak,"Finches, Euphonias, and Allies"
+57,057.Rose_breasted_Grosbeak,Rose breasted Grosbeak,Rose-breasted Grosbeak,Cardinals and Allies
+58,058.Pigeon_Guillemot,Pigeon Guillemot,Pigeon Guillemot,"Auks, Murres, and Puffins"
+59,059.California_Gull,California Gull,California Gull,"Gulls, Terns, and Skimmers"
+60,060.Glaucous_winged_Gull,Glaucous winged Gull,Glaucous-winged Gull,"Gulls, Terns, and Skimmers"
+61,061.Heermann_Gull,Heermann Gull,Heermanns Gull,"Gulls, Terns, and Skimmers"
+62,062.Herring_Gull,Herring Gull,Herring Gull,"Gulls, Terns, and Skimmers"
+63,063.Ivory_Gull,Ivory Gull,Ivory Gull,"Gulls, Terns, and Skimmers"
+64,064.Ring_billed_Gull,Ring billed Gull,Ring-billed Gull,"Gulls, Terns, and Skimmers"
+65,065.Slaty_backed_Gull,Slaty backed Gull,Slaty-backed Gull,"Gulls, Terns, and Skimmers"
+66,066.Western_Gull,Western Gull,Western Gull,"Gulls, Terns, and Skimmers"
+67,067.Anna_Hummingbird,Anna Hummingbird,Annas Hummingbird,Hummingbirds
+68,068.Ruby_throated_Hummingbird,Ruby throated Hummingbird,Ruby-throated Hummingbird,Hummingbirds
+69,069.Rufous_Hummingbird,Rufous Hummingbird,Rufous Hummingbird,Hummingbirds
+70,070.Green_Violetear,Green Violetear,Green Violetear,#N/A
+71,071.Long_tailed_Jaeger,Long tailed Jaeger,Long-tailed Jaeger,Skuas and Jaegers
+72,072.Pomarine_Jaeger,Pomarine Jaeger,Pomarine Jaeger,Skuas and Jaegers
+73,073.Blue_Jay,Blue Jay,Blue Jay,"Crows, Jays, and Magpies"
+74,074.Florida_Jay,Florida Jay,Florida Jay,"Crows, Jays, and Magpies"
+75,075.Green_Jay,Green Jay,Green Jay,"Crows, Jays, and Magpies"
+76,076.Dark_eyed_Junco,Dark eyed Junco,Dark-eyed Junco,New World Buntings and Sparrows
+77,077.Tropical_Kingbird,Tropical Kingbird,Tropical Kingbird,Tyrant Flycatchers
+78,078.Gray_Kingbird,Gray Kingbird,Gray Kingbird,#N/A
+79,079.Belted_Kingfisher,Belted Kingfisher,Belted Kingfisher,Kingfishers
+80,080.Green_Kingfisher,Green Kingfisher,Green Kingfisher,Kingfishers
+81,081.Pied_Kingfisher,Pied Kingfisher,Pied Kingfisher,Kingfishers
+82,082.Ringed_Kingfisher,Ringed Kingfisher,Ringed Kingfisher,Kingfishers
+83,083.White_breasted_Kingfisher,White breasted Kingfisher,White breasted Kingfisher,Kingfishers
+84,084.Red_legged_Kittiwake,Red legged Kittiwake,Red legged Kittiwake,#N/A
+85,085.Horned_Lark,Horned Lark,Horned Lark,Larks
+86,086.Pacific_Loon,Pacific Loon,Pacific Loon,Loons
+87,087.Mallard,Mallard,Mallard,"Ducks, Geese, and Waterfowl"
+88,088.Western_Meadowlark,Western Meadowlark,Western Meadowlark,Troupials and Allies
+89,089.Hooded_Merganser,Hooded Merganser,Hooded Merganser,"Ducks, Geese, and Waterfowl"
+90,090.Red_breasted_Merganser,Red breasted Merganser,Red-breasted Merganser,"Ducks, Geese, and Waterfowl"
+91,091.Mockingbird,Mockingbird,Northern Mockingbird,Mockingbirds and Thrashers
+92,092.Nighthawk,Nighthawk,Nighthawk,#N/A
+93,093.Clark_Nutcracker,Clark Nutcracker,Clarks Nutcracker,"Crows, Jays, and Magpies"
+94,094.White_breasted_Nuthatch,White breasted Nuthatch,White-breasted Nuthatch,Nuthatches
+95,095.Baltimore_Oriole,Baltimore Oriole,Baltimore Oriole,Troupials and Allies
+96,096.Hooded_Oriole,Hooded Oriole,Hooded Oriole,Troupials and Allies
+97,097.Orchard_Oriole,Orchard Oriole,Orchard Oriole,Troupials and Allies
+98,098.Scott_Oriole,Scott Oriole,Scotts Oriole,Troupials and Allies
+99,099.Ovenbird,Ovenbird,Ovenbird,New World Warblers
+100,100.Brown_Pelican,Brown Pelican,Brown Pelican,Pelicans
+101,101.White_Pelican,White Pelican,White Pelican,Pelicans
+102,102.Western_Wood_Pewee,Western Wood Pewee,Western Wood Pewee,#N/A
+103,103.Sayornis,Sayornis,Sayornis,#N/A
+104,104.American_Pipit,American Pipit,American Pipit,#N/A
+105,105.Whip_poor_Will,Whip poor Will,Eastern whip-poor-will,Nightjars and Allies
+106,106.Horned_Puffin,Horned Puffin,Horned Puffin,"Auks, Murres, and Puffins"
+107,107.Common_Raven,Common Raven,Common Raven,"Crows, Jays, and Magpies"
+108,108.White_necked_Raven,White necked Raven,White-necked Raven,#N/A
+109,109.American_Redstart,American Redstart,American Redstart,New World Warblers
+110,110.Geococcyx,Geococcyx,Geococcyx,#N/A
+111,111.Loggerhead_Shrike,Loggerhead Shrike,Loggerhead Shrike,Shrikes
+112,112.Great_Grey_Shrike,Great Grey Shrike,Great Grey Shrike,Shrikes
+113,113.Baird_Sparrow,Baird Sparrow,Bairds Sparrow,New World Buntings and Sparrows
+114,114.Black_throated_Sparrow,Black throated Sparrow,Black-throated Sparrow,New World Buntings and Sparrows
+115,115.Brewer_Sparrow,Brewer Sparrow,Brewers Sparrow,New World Buntings and Sparrows
+116,116.Chipping_Sparrow,Chipping Sparrow,Chipping Sparrow,New World Buntings and Sparrows
+117,117.Clay_colored_Sparrow,Clay colored Sparrow,Clay-colored Sparrow,New World Buntings and Sparrows
+118,118.House_Sparrow,House Sparrow,House Sparrow,Old World Sparrows
+119,119.Field_Sparrow,Field Sparrow,Field Sparrow,New World Buntings and Sparrows
+120,120.Fox_Sparrow,Fox Sparrow,Fox Sparrow,New World Buntings and Sparrows
+121,121.Grasshopper_Sparrow,Grasshopper Sparrow,Grasshopper Sparrow,New World Buntings and Sparrows
+122,122.Harris_Sparrow,Harris Sparrow,Harris Sparrow,New World Buntings and Sparrows
+123,123.Henslow_Sparrow,Henslow Sparrow,Henslows Sparrow,New World Buntings and Sparrows
+124,124.Le_Conte_Sparrow,Le Conte Sparrow,Le Contes Sparrow,New World Buntings and Sparrows
+125,125.Lincoln_Sparrow,Lincoln Sparrow,Lincoln Sparrow,New World Buntings and Sparrows
+126,126.Nelson_Sharp_tailed_Sparrow,Nelson Sharp tailed Sparrow,Nelson Sharp tailed Sparrow,New World Buntings and Sparrows
+127,127.Savannah_Sparrow,Savannah Sparrow,Savannah Sparrow,New World Buntings and Sparrows
+128,128.Seaside_Sparrow,Seaside Sparrow,Seaside Sparrow,New World Buntings and Sparrows
+129,129.Song_Sparrow,Song Sparrow,Song Sparrow,New World Buntings and Sparrows
+130,130.Tree_Sparrow,Tree Sparrow,Tree Sparrow,New World Buntings and Sparrows
+131,131.Vesper_Sparrow,Vesper Sparrow,Vesper Sparrow,New World Buntings and Sparrows
+132,132.White_crowned_Sparrow,White crowned Sparrow,White crowned Sparrow,New World Buntings and Sparrows
+133,133.White_throated_Sparrow,White throated Sparrow,White throated Sparrow,New World Buntings and Sparrows
+134,134.Cape_Glossy_Starling,Cape Glossy Starling,Cape Glossy Starling,#N/A
+135,135.Bank_Swallow,Bank Swallow,Bank Swallow,Swallows
+136,136.Barn_Swallow,Barn Swallow,Barn Swallow,Swallows
+137,137.Cliff_Swallow,Cliff Swallow,Cliff Swallow,Swallows
+138,138.Tree_Swallow,Tree Swallow,Tree Swallow,Swallows
+139,139.Scarlet_Tanager,Scarlet Tanager,Scarlet Tanager,Cardinals and Allies
+140,140.Summer_Tanager,Summer Tanager,Summer Tanager,Cardinals and Allies
+141,141.Artic_Tern,Artic Tern,Artic Tern,"Gulls, Terns, and Skimmers"
+142,142.Black_Tern,Black Tern,Black Tern,"Gulls, Terns, and Skimmers"
+143,143.Caspian_Tern,Caspian Tern,Caspian Tern,"Gulls, Terns, and Skimmers"
+144,144.Common_Tern,Common Tern,Common Tern,"Gulls, Terns, and Skimmers"
+145,145.Elegant_Tern,Elegant Tern,Elegant Tern,"Gulls, Terns, and Skimmers"
+146,146.Forsters_Tern,Forsters Tern,Forsters Tern,"Gulls, Terns, and Skimmers"
+147,147.Least_Tern,Least Tern,Least Tern,"Gulls, Terns, and Skimmers"
+148,148.Green_tailed_Towhee,Green tailed Towhee,Green-tailed Towhee,New World Buntings and Sparrows
+149,149.Brown_Thrasher,Brown Thrasher,Brown Thrasher,Mockingbirds and Thrashers
+150,150.Sage_Thrasher,Sage Thrasher,Sage Thrasher,Mockingbirds and Thrashers
+151,151.Black_capped_Vireo,Black capped Vireo,Black-capped Vireo,"Vireos, Shrike-Babblers, and Erpornis"
+152,152.Blue_headed_Vireo,Blue headed Vireo,Blue-headed Vireo,"Vireos, Shrike-Babblers, and Erpornis"
+153,153.Philadelphia_Vireo,Philadelphia Vireo,Philadelphia Vireo,"Vireos, Shrike-Babblers, and Erpornis"
+154,154.Red_eyed_Vireo,Red eyed Vireo,Red-eyed Vireo,"Vireos, Shrike-Babblers, and Erpornis"
+155,155.Warbling_Vireo,Warbling Vireo,Warbling Vireo,"Vireos, Shrike-Babblers, and Erpornis"
+156,156.White_eyed_Vireo,White eyed Vireo,White-eyed Vireo,"Vireos, Shrike-Babblers, and Erpornis"
+157,157.Yellow_throated_Vireo,Yellow throated Vireo,Yellow-throated Vireo,"Vireos, Shrike-Babblers, and Erpornis"
+158,158.Bay_breasted_Warbler,Bay breasted Warbler,Bay-breasted Warbler,New World Warblers
+159,159.Black_and_white_Warbler,Black and white Warbler,Black and white Warbler,New World Warblers
+160,160.Black_throated_Blue_Warbler,Black throated Blue Warbler,Black-throated Blue Warbler,New World Warblers
+161,161.Blue_winged_Warbler,Blue winged Warbler,Blue-winged Warbler,New World Warblers
+162,162.Canada_Warbler,Canada Warbler,Canada Warbler,New World Warblers
+163,163.Cape_May_Warbler,Cape May Warbler,Cape May Warbler,New World Warblers
+164,164.Cerulean_Warbler,Cerulean Warbler,Cerulean Warbler,New World Warblers
+165,165.Chestnut_sided_Warbler,Chestnut sided Warbler,Chestnut-sided Warbler,New World Warblers
+166,166.Golden_winged_Warbler,Golden winged Warbler,Golden-winged Warbler,New World Warblers
+167,167.Hooded_Warbler,Hooded Warbler,Hooded Warbler,New World Warblers
+168,168.Kentucky_Warbler,Kentucky Warbler,Kentucky Warbler,New World Warblers
+169,169.Magnolia_Warbler,Magnolia Warbler,Magnolia Warbler,New World Warblers
+170,170.Mourning_Warbler,Mourning Warbler,Mourning Warbler,New World Warblers
+171,171.Myrtle_Warbler,Myrtle Warbler,Myrtle Warbler,#N/A
+172,172.Nashville_Warbler,Nashville Warbler,Nashville Warbler,New World Warblers
+173,173.Orange_crowned_Warbler,Orange crowned Warbler,Orange-crowned Warbler,New World Warblers
+174,174.Palm_Warbler,Palm Warbler,Palm Warbler,New World Warblers
+175,175.Pine_Warbler,Pine Warbler,Pine Warbler,New World Warblers
+176,176.Prairie_Warbler,Prairie Warbler,Prairie Warbler,New World Warblers
+177,177.Prothonotary_Warbler,Prothonotary Warbler,Prothonotary Warbler,New World Warblers
+178,178.Swainson_Warbler,Swainson Warbler,Swainsons Warbler,New World Warblers
+179,179.Tennessee_Warbler,Tennessee Warbler,Tennessee Warbler,New World Warblers
+180,180.Wilson_Warbler,Wilson Warbler,Wilsons Warbler,New World Warblers
+181,181.Worm_eating_Warbler,Worm eating Warbler,Worm-eating Warbler,New World Warblers
+182,182.Yellow_Warbler,Yellow Warbler,Yellow Warbler,#N/A
+183,183.Northern_Waterthrush,Northern Waterthrush,Northern Waterthrush,New World Warblers
+184,184.Louisiana_Waterthrush,Louisiana Waterthrush,Louisiana Waterthrush,New World Warblers
+185,185.Bohemian_Waxwing,Bohemian Waxwing,Bohemian Waxwing,Waxwings
+186,186.Cedar_Waxwing,Cedar Waxwing,Cedar Waxwing,Waxwings
+187,187.American_Three_toed_Woodpecker,American Three toed Woodpecker,American Three-toed Woodpecker,Woodpeckers
+188,188.Pileated_Woodpecker,Pileated Woodpecker,Pileated Woodpecker,Woodpeckers
+189,189.Red_bellied_Woodpecker,Red bellied Woodpecker,Red-bellied Woodpecker,Woodpeckers
+190,190.Red_cockaded_Woodpecker,Red cockaded Woodpecker,Red-cockaded Woodpecker,Woodpeckers
+191,191.Red_headed_Woodpecker,Red headed Woodpecker,Red-headed Woodpecker,Woodpeckers
+192,192.Downy_Woodpecker,Downy Woodpecker,Downy Woodpecker,Woodpeckers
+193,193.Bewick_Wren,Bewick Wren,Bewicks Wren,Wrens
+194,194.Cactus_Wren,Cactus Wren,Cactus Wren,Wrens
+195,195.Carolina_Wren,Carolina Wren,Carolina Wren,Wrens
+196,196.House_Wren,House Wren,House Wren,Wrens
+197,197.Marsh_Wren,Marsh Wren,Marsh Wren,Wrens
+198,198.Rock_Wren,Rock Wren,Rock Wren,Wrens
+199,199.Winter_Wren,Winter Wren,Winter Wren,Wrens
+200,200.Common_Yellowthroat,Common Yellowthroat,Common Yellowthroat,New World Warblers
