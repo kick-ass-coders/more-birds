@@ -1,19 +1,19 @@
-us orders,cornell shapes,family,family common name,classification_name,classification group,classification level,# sp in Cub,url_list
-Columbiformes,Dove,,,Dove,Columbiformes,order,0,TRUE
-Accipitriformes,Hawk/Falcon,,,Hawk/Falcon,Hawk/Falcon,shape,0,TRUE
-Gruiformes,,Rallidae,"Rails, Gallinules, and Coots","Rails, Gallinules, and Coots",Rallidae,family,0,TRUE
-Gruiformes,,Gruidae,cranes,cranes,Gruidae,family,0,TRUE
+us orders,cornell shapes,family,family common name,classification_name,classification group,classification level,# sp in Cub,qc
+Columbiformes,Dove,,,Dove,Columbiformes,order,0,
+Accipitriformes,Hawk/Falcon,,,Hawk/Falcon,Hawk/Falcon,shape,0,
+Gruiformes,,Rallidae,"Rails, Gallinules, and Coots","Rails, Gallinules, and Coots",Rallidae,family,0,coots
+Gruiformes,,Gruidae,cranes,cranes,Gruidae,family,0,
 Psittaciformes,Parrot,,,Parrot,Psittaciformes,order,0,
 Galliformes,Game Bird,Phasianidae,"Pheasants, grouses, and allies","Pheasants, grouses, and allies",Phasianidae,family,0,
 Galliformes,Game Bird,Odontophoridae,New world quail,New world quail,Odontophoridae,family,0,
 Falconiformes,Hawk/Falcon,,,Hawk/Falcon,Hawk/Falcon,shape,0,
 Strigiformes,Owl,,,Owl,Strigiformes,order,0,
 Charadriiformes,Shorebird,Scolopacidae,"snipe, sandpipers, phalaropes and allies","snipe, sandpipers, phalaropes and allies",Scolopacidae,family,0,
-Charadriiformes,Shorebird,Recurvirostridae,avocets and stilts,avocets and stilts,Recurvirostridae,family,0,
+Charadriiformes,Shorebird,Recurvirostridae,avocets and stilts,avocets and stilts,Recurvirostridae,family,0,avocet
 Charadriiformes,Shorebird,Charadriidae,plovers and lapwings,plovers and lapwings,Charadriidae,family,0,
-Passeriformes,Chickadee,Paridae,,Chickadee,Paridae,family,0,
+Passeriformes,Chickadee,Paridae,,Chickadee,Paridae,family,0,chickadee
 Passeriformes,Thrush,Turdidae,,Thrush,Turdidae,family,0,
-Pelecaniformes,Heron,Ardeidae,"Herons, Egrets, and Bitterns","Herons, Egrets, and Bitterns",Ardeidae,family,0,
+Pelecaniformes,Heron,Ardeidae,"Herons, Egrets, and Bitterns","Herons, Egrets, and Bitterns",Ardeidae,family,0,bittern
 Passeriformes,Nuthatch,Sittidae,,Nuthatch,Sittidae,family,1,
 Pelecaniformes,,Pelecanidae,Pelicans,Pelicans,Pelecanidae,family,1,
 Passeriformes,,Alaudidae,Larks,Larks,Alaudidae,family,1,
