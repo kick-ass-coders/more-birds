@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Bird Search</title>
     <!-- D3.js -->
-    <script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+    <script src="https://d3js.org/d3.v3.min.js" charset="utf-8"></script>
     <!-- Font Awesome -->
     <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
     <!-- Google Fonts -->
@@ -16,15 +16,29 @@
     <!-- Animate.css -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@3.5.2/animate.min.css">
     <!-- Our CSS -->
-    <link rel="stylesheet" type="text/css" href="../static/css/style.css">
+    <link rel="stylesheet" type="text/css" href="/static/css/style.css">
     <!-- Favicon -->
-    <link href="../static/images/favicon.ico" rel="icon" type="image/x-icon" />
+    <link href="/static/images/favicon.ico" rel="icon" type="image/x-icon" />
     
 </head>
 <body class="searchTable">
-    <div class="headerHome" id="header">
+    <div class="header" id="header">
         <h1 class="animated fadeIn">Species Search Table</h1>
     </div>
-    <script type='text/javascript' src='../static/data/birdtable.js'></script>
+    <div class="input-group">
+        <div class="row">
+            <div class="col-md-6">
+                <span class="input-group-btn">
+                    <button class="btn btn-default" id="birdSearchBtn" type="button">Go!</button>
+                </span>
+                <input type="text" class="form-control" id="birdInput" placeholder="Search for...">
+            </div>
+        </div>
+    </div><!-- /input-group -->
+    <div class="row">
+        <div class="col-md-6">
+            <script type='text/javascript' src='/static/data/birdtable.js'></script>
+        </div>
+    </div>
 </body>
 </html>
