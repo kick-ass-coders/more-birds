@@ -262,8 +262,9 @@ def upload_file():
 
             data['success'] = True
     return jsonify(data)
-    render_template("birdClassifier.html")
+    return render_template("birdClassifier.html")
 
 #################################################
 if __name__ == "__main__":
+    load_model()
     app.run(debug=True)
