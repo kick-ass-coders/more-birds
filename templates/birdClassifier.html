@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Bird Search</title>
+    <!-- D3.js -->
+    <script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+    <!-- Font Awesome -->
+    <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Bellefair|Dosis|Alex+Brush|Astloch|Almendra+Display" rel="stylesheet">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <!-- Animate.css -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@3.5.2/animate.min.css">
+    <!-- Our CSS -->
+    <link rel="stylesheet" type="text/css" href="../static/css/style.css">
+    <!-- Favicon -->
+    <link href="../static/images/favicon.ico" rel="icon" type="image/x-icon" />
+    
+</head>
+<body class="birdClassifier">
+    <div class="headerHome" id="header">
+        <h1 class="animated fadeIn">Upload an Image</h1>
+    </div>
+    <div class="container" style="padding-top: 20px;">
+        <div class="row">
+            <div class="col-md-2"></div>
+            <div class="col-md-2">
+                <form method=post enctype=multipart/form-data>
+                    <p><input type=file name=file></p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-2"></div>
+            <div class="col-md-1" style="text-align: center;">
+                <input type=submit value=Upload style="border-radius: 5px;">
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
