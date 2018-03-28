@@ -3,6 +3,7 @@
 #################################################
 import pandas as pd
 import os
+import io
 import json
 import requests
 import plotly.plotly
@@ -17,7 +18,17 @@ from sqlalchemy import create_engine, inspect, func
 from splinter import Browser
 from bs4 import BeautifulSoup as bs
 
-from flask import Flask, render_template, redirect, jsonify
+from flask import Flask, render_template, redirect, jsonify, request, url_for
+
+import numpy as np
+from PIL import Image
+import tensorflow as tf
+import keras
+from keras.preprocessing import image
+from keras.preprocessing.image import img_to_array
+from keras.applications.xception import (
+    Xception, preprocess_input, decode_predictions
+)
 
 
 from sqlalchemy import Column, Float, Integer, String
@@ -52,6 +63,27 @@ RegionCentroids = Base.classes.region_centroids
 
 # create instance of Flask app
 app = Flask(__name__)
+model = None
+graph = None
+
+def load_model():
+    global model
+    global graph
+    model = keras.models.load_model("xception.h5")
+    graph = K.get_session().graph
+
+def prepare_image(image):
+    if image.mode != "RGB":
+        image = image.convert("RGB")
+    image_size = (299, 299)
+    image = image.resize(image_size)
+    image = np.expand_dims(image, axis=0)
+    image = preprocess_input(image)
+    return image
+
+def allowed_file(filename):
+    return '.' in filename and \
+        filename.rsplit('.', 1)[1].lower() in ALLOWED_EXTENSIONS
 
 #################################################
 # route that renders index.html template
@@ -210,6 +242,28 @@ def birdDBPrint(spCode):
         data.append(spRecord)
 
     return jsonify(data)
+
+# Route for uploading images for classification
+@app.route('/classifier', methods=['GET', 'POST'])
+def upload_file():
+    data = {'success': False}
+    if request.method == 'POST':
+        if request.files.get('file'):
+            file = request.files['file']
+            image = file.read()
+            image = Image.open(io.BytesIO(image))
+
+            image = prepare_image(image)
+            global graph
+            with graph.as_default():
+                preds = model.predict(image)
+                results = decode_predictions(preds)
+                data['predictions'].append(r)
+
+            data['success'] = True
+    return jsonify(data)
+    render_template("birdClassifier.html")
+
 #################################################
 if __name__ == "__main__":
     app.run(debug=True)
