@@ -258,10 +258,14 @@ def upload_file():
             with graph.as_default():
                 preds = model.predict(image)
                 results = decode_predictions(preds)
-                data['predictions'].append(r)
+                data['predictions'] = []
 
-            data['success'] = True
-    return jsonify(data)
+                for (imaganetID, label, prob) in results[0]:
+                    r = {"label": label, "probability": float(prob)}
+                    data["predictions"].append(r)
+
+                data['success'] = True
+        return jsonify(data)
     return render_template("birdClassifier.html")
 
 #################################################
