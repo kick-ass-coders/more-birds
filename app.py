@@ -29,6 +29,7 @@ from keras.preprocessing.image import img_to_array
 from keras.applications.xception import (
     Xception, preprocess_input, decode_predictions
 )
+from keras import backend as K
 
 
 from sqlalchemy import Column, Float, Integer, String
