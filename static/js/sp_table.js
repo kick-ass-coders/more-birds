@@ -3,8 +3,6 @@ var $birdSearchBtn = document.getElementById("birdSearchBtn");
 var $speciesTable = document.getElementById("speciesTable");
 var n = 50;
 
-birdDB = 'birdDB/'
-
 var fullSubset = getData("");
 
 buildTable(fullSubset, 1)
@@ -28,15 +26,13 @@ function pageTable(pageNum){
 };
 
 // fxn to filter by an input for a key
-function getbyInput(data, input, key){
+function getbyInput(input, key){
     // if no input is passed, return full dataset
     if (input == "" || input =="all") {
         return birdDB
     // else filter by key & input
     } else {
         return birdDB.filter(function (a) {
-            // convert to lower case
-            input = input.toLowerCase();
             return a[key] == input;
         });
     }
@@ -46,7 +42,7 @@ function getbyInput(data, input, key){
 function getData(bird) {
 
     // filter by each possible input
-    birdSubset = getbyInput(fullSubset, bird, "comName");
+    birdSubset = getbyInput(bird, "comName");
 
     return birdSubset;
     };
