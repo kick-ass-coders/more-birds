@@ -1,55 +1,46 @@
-us orders,cornell shapes,family,family common name,classification_name,classification group,classification level,# sp in Cub,qc
-Columbiformes,Dove,,,Dove,Columbiformes,order,0,doves
-Accipitriformes,Hawk/Falcon,,,Hawk/Falcon,Hawk/Falcon,shape,0,hawk
-Gruiformes,,Rallidae,"Rails, Gallinules, and Coots","Rails, Gallinules, and Coots",Rallidae,family,0,coots
-Gruiformes,,Gruidae,cranes,cranes,Gruidae,family,0,cranes
-Psittaciformes,Parrot,,,Parrot,Psittaciformes,order,0,
-Galliformes,Game Bird,Phasianidae,"Pheasants, grouses, and allies","Pheasants, grouses, and allies",Phasianidae,family,0,
-Galliformes,Game Bird,Odontophoridae,New world quail,New world quail,Odontophoridae,family,0,
-Falconiformes,Hawk/Falcon,,,Hawk/Falcon,Hawk/Falcon,shape,0,hawk
-Strigiformes,Owl,,,Owl,Strigiformes,order,0,
-Charadriiformes,Shorebird,Scolopacidae,"snipe, sandpipers, phalaropes and allies","snipe, sandpipers, phalaropes and allies",Scolopacidae,family,0,
-Charadriiformes,Shorebird,Recurvirostridae,avocets and stilts,avocets and stilts,Recurvirostridae,family,0,avocet
-Charadriiformes,Shorebird,Charadriidae,plovers and lapwings,plovers and lapwings,Charadriidae,family,0,
-Passeriformes,Chickadee,Paridae,,Chickadee,Paridae,family,0,chickadee
-Passeriformes,Thrush,Turdidae,,Thrush,Turdidae,family,0,
-Pelecaniformes,Heron,Ardeidae,"Herons, Egrets, and Bitterns","Herons, Egrets, and Bitterns",Ardeidae,family,0,bittern
-Passeriformes,Nuthatch,Sittidae,,Nuthatch,Sittidae,family,1,
-Pelecaniformes,,Pelecanidae,Pelicans,Pelicans,Pelecanidae,family,1,
-Passeriformes,,Alaudidae,Larks,Larks,Alaudidae,family,1,
-Gaviiformes,,Gaviidae,Loons,Loons,Gaviidae,family,1,
-Passeriformes,,Motacillidae,Wagtails and Pipits,Wagtails and Pipits,Motacillidae,family,1,
-Passeriformes,Swallow/Swift,Hirundinidae,,Swallow/Swift,Hirundinidae,family,2,
-Passeriformes,,Bombycillidae,Waxwings,Waxwings,Bombycillidae,family,2,
-Passeriformes,,Laniidae,Shrikes,Shrikes,Laniidae,family,2,
-Charadriiformes,,Stercorariidae,Skuas and Jaegers,Skuas and Jaegers,Stercorariidae,family,2,
-Passeriformes,,Mimidae,Mockingbirds and Thrashers,Mockingbirds and Thrashers,Mimidae,family,3,
-Suliformes,,Phalacrocoracidae,Cormorants and Shags,Cormorants and Shags,Phalacrocoracidae,family,3,
-Passeriformes,Finch,Fringillidae,,Finch,Fringillidae,family,4,
-Procellariiformes,Seabird,,,Seabird,Procellariiformes,order,4,
-Anseriformes,Duck (waterfowl),,,waterfowl,Anseriformes,order,4,
-Podicipediformes,,Podicipedidae,Grebes,Grebes,Podicipedidae,family,4,
-Coraciiformes,Kingfisher,,,Kingfisher,Coraciiformes,order,5,
-Charadriiformes,Auk,Alcidae,"Auks, Murres, and Puffins","Auks, Murres, and Puffins",Alcidae,family,6,
-Passeriformes,Crow/Jay,Corvidae,,Crow/Jay,Corvidae,family,6,
-Passeriformes,Wren,Troglodytidae,,Wren,Troglodytidae,family,7,
-Piciformes,Woodpecker,,,Woodpecker,Piciformes,order,7,
-Caprimulgiformes,Hummingbird,,,Hummingbird,Caprimulgiformes,order,7,
-Passeriformes,,Vireonidae,"Vireos, Shrike-Babblers, and Erpornis","Vireos, Shrike-Babblers, and Erpornis",Vireonidae,family,7,
-Passeriformes,,Cardinalidae,,Cardinals and allies,Cardinalidae,family,8,
-Passeriformes,Flycatcher,Tyrannidae,,Flycatcher,Tyrannidae,family,8,
-Passeriformes,Blackbird,Icteridae,,Blackbird,Icteridae,family,13,
-Charadriiformes,Gull/Tern,Laridae,,Gull/Tern,Laridae,family,14,
-Passeriformes,Sparrow,Passerellidae,,Sparrow,Passerellidae,family,18,
-Passeriformes,Warbler,Parulidae,,Warbler,Parulidae,family,27,
-Cuculiformes,,,,Roadrunner,Roadrunner,shape,1,
-Ciconiiformes,,,,,NA,NA,NA,
-Phaethontiformes,,,,,NA,NA,NA,
-Trogoniformes,,,,,NA,NA,NA,
-Phoenicopteriformes,,,,,NA,NA,NA,
-Pterocliformes,,,,,NA,NA,NA,
-Cathartiformes,,,,,NA,NA,NA,
-Cuculiformes,,,,,NA,NA,NA,
-Suliformes,,,,,NA,NA,NA,
-Gaviiformes,,,,,NA,NA,NA,
-Podicipediformes,,,,,NA,NA,NA,
+us orders,cornell shapes,family,family common name,genus,classification group,classification_name,classification level,# sp in Cub
+Charadriiformes,Auk,Alcidae,"Auks, Murres, and Puffins",,Alcidae,auks_murres_puffins,family,6
+Charadriiformes,Shorebird,Recurvirostridae,avocets and stilts,,Recurvirostridae,avocets_stilts,family,0
+Passeriformes,Blackbird,Icteridae,,,Icteridae,blackbirds,family,13
+Passeriformes,,Cardinalidae,,,Cardinalidae,cardinals_allies,family,8
+Passeriformes,Chickadee,Paridae,,,Paridae,chickadees,family,0
+Suliformes,,Phalacrocoracidae,Cormorants and Shags,,Phalacrocoracidae,cormorants_shags,family,3
+Gruiformes,,Gruidae,cranes,,Gruidae,cranes,family,0
+Passeriformes,Crow/Jay,Corvidae,,,Corvidae,crows_jays,family,6
+Columbiformes,Dove,,,,Columbiformes,doves,order,0
+Passeriformes,Finch,Fringillidae,,,Fringillidae,finches,family,4
+Passeriformes,Flycatcher,Tyrannidae,,,Tyrannidae,flycatchers,family,8
+Podicipediformes,,Podicipedidae,Grebes,,Podicipedidae,grebes,family,4
+Charadriiformes,Gull/Tern,Laridae,,,Laridae,gulls_terns,family,14
+Accipitriformes,Hawk/Falcon,,,,Hawk/Falcon,hawks_eagles_falcons,shape,0
+Falconiformes,Hawk/Falcon,,,,Hawk/Falcon,hawks_eagles_falcons,shape,0
+Pelecaniformes,Heron,Ardeidae,"Herons, Egrets, and Bitterns",,Ardeidae,herons_egrets_bitterns,family,0
+Caprimulgiformes,Hummingbird,,,,Caprimulgiformes,hummingbirds,order,7
+Coraciiformes,Kingfisher,,,,Coraciiformes,kingfishers,order,5
+Passeriformes,,Alaudidae,Larks,,Alaudidae,larks,family,1
+Gaviiformes,,Gaviidae,Loons,,Gaviidae,loons,family,1
+Passeriformes,,Mimidae,Mockingbirds and Thrashers,,Mimidae,mockingbirds_thrashers,family,3
+Passeriformes,Nuthatch,Sittidae,,,Sittidae,nuthatches,family,1
+Strigiformes,Owl,,,,Strigiformes,owls,order,0
+Psittaciformes,Parrot,,,,Psittaciformes,parrots,order,0
+Pelecaniformes,,Pelecanidae,Pelicans,,Pelecanidae,pelicans,family,1
+Galliformes,Game Bird,Phasianidae,"Pheasants, grouses, and allies",,Phasianidae,pheasants_grouses_allies,family,0
+Charadriiformes,Shorebird,Charadriidae,plovers and lapwings,,Charadriidae,plovers_lapwings,family,0
+Galliformes,Game Bird,Odontophoridae,New world quail,,Odontophoridae,quail,family,0
+Gruiformes,,Rallidae,"Rails, Gallinules, and Coots",,Rallidae,rails_gallinules_coots,family,0
+Cuculiformes,,,,Geococcyx,Geococcyx,roadrunners,genus,1
+Procellariiformes,Seabird,,,,Procellariiformes,seabird,order,4
+Passeriformes,,Laniidae,Shrikes,,Laniidae,shrikes,family,2
+Charadriiformes,,Stercorariidae,Skuas and Jaegers,,Stercorariidae,skuas_jaegers,family,2
+Charadriiformes,Shorebird,Scolopacidae,"snipe, sandpipers, phalaropes and allies",,Scolopacidae,snipe_sandpipers_phalaropes_allies,family,0
+Passeriformes,Sparrow,Passerellidae,,,Passerellidae,sparrow,family,18
+Passeriformes,,Sturnidae,Starlings,,Sturnidae,starlings,family,1
+Passeriformes,Swallow/Swift,Hirundinidae,,,Hirundinidae,swallow_swift,family,2
+Passeriformes,Thrush,Turdidae,,,Turdidae,thrush,family,0
+Passeriformes,,Vireonidae,"Vireos, Shrike-Babblers, and Erpornis",,Vireonidae,vireos_shrike-babblers_erpornis,family,7
+Passeriformes,,Motacillidae,Wagtails and Pipits,,Motacillidae,wagtails_pipits,family,1
+Passeriformes,Warbler,Parulidae,,,Parulidae,warbler,family,27
+Anseriformes,Duck (waterfowl),,,,Anseriformes,waterfowl,order,4
+Passeriformes,,Bombycillidae,Waxwings,,Bombycillidae,waxwings,family,2
+Piciformes,Woodpecker,,,,Piciformes,woodpecker,order,7
+Passeriformes,Wren,Troglodytidae,,,Troglodytidae,wren,family,7
