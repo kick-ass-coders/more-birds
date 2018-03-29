@@ -1,12 +1,12 @@
 us orders,cornell shapes,family,family common name,classification_name,classification group,classification level,# sp in Cub,qc
-Columbiformes,Dove,,,Dove,Columbiformes,order,0,
-Accipitriformes,Hawk/Falcon,,,Hawk/Falcon,Hawk/Falcon,shape,0,
+Columbiformes,Dove,,,Dove,Columbiformes,order,0,doves
+Accipitriformes,Hawk/Falcon,,,Hawk/Falcon,Hawk/Falcon,shape,0,hawk
 Gruiformes,,Rallidae,"Rails, Gallinules, and Coots","Rails, Gallinules, and Coots",Rallidae,family,0,coots
-Gruiformes,,Gruidae,cranes,cranes,Gruidae,family,0,
+Gruiformes,,Gruidae,cranes,cranes,Gruidae,family,0,cranes
 Psittaciformes,Parrot,,,Parrot,Psittaciformes,order,0,
 Galliformes,Game Bird,Phasianidae,"Pheasants, grouses, and allies","Pheasants, grouses, and allies",Phasianidae,family,0,
 Galliformes,Game Bird,Odontophoridae,New world quail,New world quail,Odontophoridae,family,0,
-Falconiformes,Hawk/Falcon,,,Hawk/Falcon,Hawk/Falcon,shape,0,
+Falconiformes,Hawk/Falcon,,,Hawk/Falcon,Hawk/Falcon,shape,0,hawk
 Strigiformes,Owl,,,Owl,Strigiformes,order,0,
 Charadriiformes,Shorebird,Scolopacidae,"snipe, sandpipers, phalaropes and allies","snipe, sandpipers, phalaropes and allies",Scolopacidae,family,0,
 Charadriiformes,Shorebird,Recurvirostridae,avocets and stilts,avocets and stilts,Recurvirostridae,family,0,avocet
