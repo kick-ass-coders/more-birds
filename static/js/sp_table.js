@@ -31,10 +31,10 @@ function pageTable(pageNum){
 function getbyInput(data, input, key){
     // if no input is passed, return full dataset
     if (input == "" || input =="all") {
-        return data
+        return birdDB
     // else filter by key & input
     } else {
-        return data.filter(function (a) {
+        return birdDB.filter(function (a) {
             // convert to lower case
             input = input.toLowerCase();
             return a[key] == input;
