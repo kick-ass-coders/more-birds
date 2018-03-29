@@ -5,8 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Bird Search</title>
-    <!-- D3.js -->
-    <script src="https://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+    <!-- DataTable -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <link rel"stylesheet" href="https://cdn.datatables.net/1.10.16/css/jquery.dataTables.min.css"></script>
+    <script src="https://cdn.datatables.net/1.10.16/js/jquery.dataTables.min.js"></script>
     <!-- Font Awesome -->
     <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
     <!-- Google Fonts -->
@@ -19,9 +22,8 @@
     <link rel="stylesheet" type="text/css" href="/static/css/style.css">
     <!-- Favicon -->
     <link href="/static/images/favicon.ico" rel="icon" type="image/x-icon" />
-    <!--JQUERY & AJAX-->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <!-- JQUERY & AJAX-->
+    
     
     <script src="/static/data/us_list.js"></script>
     
@@ -30,29 +32,11 @@
     <div class="header" id="header">
         <h1 class="animated fadeIn">Species Search Table</h1>
     </div>
-    <div class="input-group">
-        <div class="row">
-            <div class="col-md-6">
-                <span class="input-group-btn">
-                    <button class="btn btn-default" id="birdSearchBtn" type="button">Go!</button>
-                </span>
-                <input type="text" class="form-control" id="birdInput" placeholder="Search for...">
-            </div>
-        </div>
-    </div><!-- /input-group -->
-    <div class="row">
-        <div class="col-md-6">
-            <table id="speciesTable">
-                <thead>
-                    <tr>
-                        <th>Common Name</th>
-                        <th>Species Code</th>
-                    </tr>
-                </thead>
-                <tbody></tbody>
-            </table>
+    <div class="container">
+        <div class="col-md-2"></div>
+        <div class="col-md-8">
+            <table id="birb" class="display" width="100%"></table>
         </div>
     </div>
-    <script>"../static/js/sp_table.js"</script>
 </body>
 </html>
