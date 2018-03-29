@@ -7,7 +7,7 @@
 ## Machine Learning and Image Classification
 With this second iteration of Bird Oracle, we have improved our application by integrating machine learning and image classification. We built our model using Tensorflow.
 
-Using our model, several thousand photographs of birds, and most of our sanity, we have created an image classification system aiming to provide users with an easy-to-use method of bird identification. After uploading their own bird image, our application will return the type of bird our entrepid birder has captured. It's all very exciting. 
+Using this model, several thousand photographs of birds, and most of our sanity, we have created an image classification system aiming to provide users with an easy-to-use method of bird identification. After uploading their own bird image, our application will return the type of bird our entrepid birder has captured. It's all very exciting. 
 
 ## Additional Updates
 We also made several asthetic updates to our dashboard and included a searchable table for our users to more easily access the species search codes. 
