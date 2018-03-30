@@ -5,6 +5,7 @@ var birdDB = [
 $(document).ready(function() {
     $('#birb').DataTable( {
         data: birdDB,
+        "pageLength": 25,
         columns: [
             {title: "Common Name"},
             {title: "Species Code"},
