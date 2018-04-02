@@ -21,12 +21,12 @@ from flask import Flask, render_template, redirect, jsonify
 
 
 from sqlalchemy import Column, Float, Integer, String
+from sqlalchemy import and_, or_
+from sqlalchemy import func
 
 import pymysql
 pymysql.install_as_MySQLdb()
 
-from sqlalchemy import and_, or_
-from sqlalchemy import func
 
 # Create an engine connecting to the SQLite database file
 engine = create_engine("sqlite:///birds.sqlite")

@@ -21,7 +21,6 @@ $submitBtn.addEventListener("click", function(){searchChanged()});
 // what to do when the state is changed
 function searchChanged(){
 
-  var $date = document.getElementById("calendar");
   var $birdSearch = document.getElementById("birdSearch");
 
   daysSearch = 30;

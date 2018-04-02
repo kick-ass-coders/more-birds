@@ -29,18 +29,18 @@ Charadriiformes,Shorebird,Charadriidae,plovers and lapwings,,Charadriidae,plover
 Galliformes,Game Bird,Odontophoridae,New world quail,,Odontophoridae,quail,family,0
 Gruiformes,,Rallidae,"Rails, Gallinules, and Coots",,Rallidae,rails_gallinules_coots,family,0
 Cuculiformes,,,,Geococcyx,Geococcyx,roadrunners,genus,1
-Procellariiformes,Seabird,,,,Procellariiformes,seabird,order,4
+Procellariiformes,Seabird,,,,Procellariiformes,seabirds,order,4
 Passeriformes,,Laniidae,Shrikes,,Laniidae,shrikes,family,2
 Charadriiformes,,Stercorariidae,Skuas and Jaegers,,Stercorariidae,skuas_jaegers,family,2
-Charadriiformes,Shorebird,Scolopacidae,"snipe, sandpipers, phalaropes and allies",,Scolopacidae,snipe_sandpipers_phalaropes_allies,family,0
-Passeriformes,Sparrow,Passerellidae,,,Passerellidae,sparrow,family,18
+Charadriiformes,Shorebird,Scolopacidae,"snipe, sandpipers, phalaropes and allies",,Scolopacidae,snipes_sandpipers_phalaropes_allies,family,0
+Passeriformes,Sparrow,Passerellidae,,,Passerellidae,sparrows,family,18
 Passeriformes,,Sturnidae,Starlings,,Sturnidae,starlings,family,1
-Passeriformes,Swallow/Swift,Hirundinidae,,,Hirundinidae,swallow_swift,family,2
+Passeriformes,Swallow/Swift,Hirundinidae,,,Hirundinidae,swallows_swifts,family,2
 Passeriformes,Thrush,Turdidae,,,Turdidae,thrush,family,0
 Passeriformes,,Vireonidae,"Vireos, Shrike-Babblers, and Erpornis",,Vireonidae,vireos_shrike-babblers_erpornis,family,7
 Passeriformes,,Motacillidae,Wagtails and Pipits,,Motacillidae,wagtails_pipits,family,1
-Passeriformes,Warbler,Parulidae,,,Parulidae,warbler,family,27
+Passeriformes,Warbler,Parulidae,,,Parulidae,warblers,family,27
 Anseriformes,Duck (waterfowl),,,,Anseriformes,waterfowl,order,4
 Passeriformes,,Bombycillidae,Waxwings,,Bombycillidae,waxwings,family,2
-Piciformes,Woodpecker,,,,Piciformes,woodpecker,order,7
-Passeriformes,Wren,Troglodytidae,,,Troglodytidae,wren,family,7
+Piciformes,Woodpecker,,,,Piciformes,woodpeckers,order,7
+Passeriformes,Wren,Troglodytidae,,,Troglodytidae,wrens,family,7
