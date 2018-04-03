@@ -17,7 +17,7 @@ from sqlalchemy import create_engine, inspect, func
 from splinter import Browser
 from bs4 import BeautifulSoup as bs
 
-from flask import Flask, render_template, redirect, jsonify, request, url_for
+from flask import Flask, render_template, redirect, jsonify, request, url_for, send_from_directory
 
 
 from sqlalchemy import Column, Float, Integer, String
@@ -53,7 +53,7 @@ app = Flask(__name__)
 
 #################################################
 # route that renders index.html template
-UPLOAD_FOLDER = 'uploads'
+UPLOAD_FOLDER = 'static/images/uploads'
 ALLOWED_EXTENSIONS = set(['png', 'jpg', 'jpeg'])
 
 app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
@@ -235,16 +235,21 @@ def classify():
         return redirect(request.url)
     if file and allowed_file(file.filename):
         filename = secure_filename(file.filename)
-        file.save(os.path.join(app.config['UPLOAD_FOLDER'], filename))
-        file_name = f"uploads/{filename}"
+        sfname = os.path.join(app.config['UPLOAD_FOLDER'], filename)
+        file.save(sfname)
         model_file = "model/bird_categories_graph.pb"
         label_file = "model/bird_categories_labels.txt"
-        spTable = classify_bird_image(file_name, model_file, label_file)
+        spTable = classify_bird_image(sfname, model_file, label_file)
         top_category = spTable['category'][0]
         top_pct = round((spTable['probability'][0]*100),0)
 
-        return render_template('photoID.html', top_category = top_category, top_pct = top_pct, init=True)
+        return render_template('photoID.html', top_category = top_category, top_pct = top_pct, 
+    img_file = f'/upload/classify/{filename}')
     
+@app.route('/upload/classify/<filename>')
+def uploaded_file(filename):
+    return send_from_directory(app.config['UPLOAD_FOLDER'],
+                               filename)
 
 from bird_classifier import classify_bird_image
 from bird_classifier import load_graph

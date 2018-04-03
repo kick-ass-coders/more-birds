@@ -11,19 +11,5 @@
 
 </form>
 
-<div class="text-center">
-    {% if init %}
-        {% if invalidImage %}
-        <h2>top result: {{ top_category }}</h2>
-        <h2>percentage: {{ top_pct }} %</h2>
-        {% else %}
-            <div class="alert alert-success" style="margin-top:18px;">
-                <strong>Success!</strong> Your image was upload successfully
-            </div>
-        {% endif %}
-    {% endif %}
-</div>
-
-
 </body>
 </html>
