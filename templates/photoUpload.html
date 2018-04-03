@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+    </head>
+
+    <body>
+<form action="/upload/classify" method = post enctype = multipart/form-data>
+    <input type= "file" name="file">
+   <button type = "submit" name = "submit">Upload Image</button>
+
+</form>
+
+<div class="text-center">
+    {% if init %}
+        {% if invalidImage %}
+        <h2>top result: {{ top_category }}</h2>
+        <h2>percentage: {{ top_pct }} %</h2>
+        {% else %}
+            <div class="alert alert-success" style="margin-top:18px;">
+                <strong>Success!</strong> Your image was upload successfully
+            </div>
+        {% endif %}
+    {% endif %}
+</div>
+
+
+</body>
+</html>

@@ -17,16 +17,14 @@ from sqlalchemy import create_engine, inspect, func
 from splinter import Browser
 from bs4 import BeautifulSoup as bs
 
-from flask import Flask, render_template, redirect, jsonify
+from flask import Flask, render_template, redirect, jsonify, request, url_for
 
 
 from sqlalchemy import Column, Float, Integer, String
 from sqlalchemy import and_, or_
 from sqlalchemy import func
 
-import pymysql
-pymysql.install_as_MySQLdb()
-
+from werkzeug.utils import secure_filename
 
 # Create an engine connecting to the SQLite database file
 engine = create_engine("sqlite:///birds.sqlite")
@@ -55,6 +53,10 @@ app = Flask(__name__)
 
 #################################################
 # route that renders index.html template
+UPLOAD_FOLDER = 'uploads'
+ALLOWED_EXTENSIONS = set(['png', 'jpg', 'jpeg'])
+
+app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
 @app.route("/")
 def home():
     return render_template("home.html")
@@ -210,6 +212,45 @@ def birdDBPrint(spCode):
         data.append(spRecord)
 
     return jsonify(data)
+
+def allowed_file(filename):
+    return '.' in filename and \
+           filename.rsplit('.', 1)[1].lower() in ALLOWED_EXTENSIONS
+
+@app.route('/upload')
+def upload_start():
+    return render_template('photoUpload.html')
+
+@app.route('/upload/classify', methods=['POST'])
+def classify():
+
+    if 'file' not in request.files:
+        flash('No file part')
+        return redirect(request.url)
+    file = request.files['file']
+    # if user does not select file, browser also
+    # submit a empty part without filename
+    if file.filename == '':
+        flash('No selected file')
+        return redirect(request.url)
+    if file and allowed_file(file.filename):
+        filename = secure_filename(file.filename)
+        file.save(os.path.join(app.config['UPLOAD_FOLDER'], filename))
+        file_name = f"uploads/{filename}"
+        model_file = "model/bird_categories_graph.pb"
+        label_file = "model/bird_categories_labels.txt"
+        spTable = classify_bird_image(file_name, model_file, label_file)
+        top_category = spTable['category'][0]
+        top_pct = round((spTable['probability'][0]*100),0)
+
+        return render_template('photoID.html', top_category = top_category, top_pct = top_pct, init=True)
+    
+
+from bird_classifier import classify_bird_image
+from bird_classifier import load_graph
+from bird_classifier import read_tensor_from_image_file
+from bird_classifier import load_labels
+
 #################################################
 if __name__ == "__main__":
     app.run(debug=True)
