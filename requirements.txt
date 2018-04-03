@@ -13,4 +13,5 @@ scipy==0.19.1
 selenium==3.8.1
 splinter==0.7.7
 SQLAlchemy==1.1.15
-urllib3==1.22tensorflow==1.6.0
+urllib3==1.22
+tensorflow==1.6.0
