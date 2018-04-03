@@ -213,7 +213,7 @@ h2 {
 }
 
 /* Species search tab */
-.tabImg1, .iSearch, #searchEx {
+.tabImg1, .iSearch, #searchEx, .imgSearch {
     padding-top: 8%;
     padding-bottom: 5%;
 }
@@ -258,45 +258,6 @@ input[type="text"]:placeholder { /* Most modern browsers support this now. */
    color:    #c8af7d;
 }
 
-/* Daterange Picker */
-.pull-right {
-    background-color: #420101d7;
-    margin-bottom: 5px;
-    border-radius: 5px;
-    padding: 5px;
-    color: #c8af7d;
-}
-
-.dropdown-menu {
-    background-color: #420101 !important;
-}
-
-.dropdown-menu li {
-    background-color: #5e0101 !important;
-    color: #c8af7d !important;
-    border: 1px solid #c8af7d !important;
-}
-
-.dropdown-menu li:hover {
-    background-color: #c8af7d !important;
-    color: #5e0101 !important;
-    border: 1px solid #5e0101 !important;
-}
-
-.dropdown-menu .active {
-    background-color: #976211 !important;
-    color: #c8af7d !important;
-    border: 1px solid #c8af7d !important;
-}
-.dropdown-menu .fa-calendar {
-    color: #976211 !important;
-}
-
-.dropdown-menu .calendar-table {
-    background-color: #c8af7d !important;
-    border: 1px solid #976211 !important;
-}
-
 .landingPage #stateHotSpots img {
     max-width: 200px;
 }
@@ -305,38 +266,6 @@ input[type="text"]:placeholder { /* Most modern browsers support this now. */
     text-align: center !important;
 }
 
-.right .input-mini {
-    background-color: #c8af7d !important;
-    border: 1px solid #976211 !important;
-    color: #420101 !important;
-}
-
-.calendar-table {
-    color: #420101 !important;
-}
-
-.calendar-table .off {
-    color: #c8af7d !important;
-}
-
-.calendar-table .in-range {
-    background-color: #976211 !important;
-}
-
-.weekend, .off, .available {
-    background-color: #af9664 !important;
-}
-
-select {
-    background-color: #420101d7;
-    border: none !important;
-    color: #c8af7d !important;
-    margin-bottom: 2px !important;
-}
-
-select i {
-    color: #c8af7d !important
-}
 
 /* Styling for species page */
 
