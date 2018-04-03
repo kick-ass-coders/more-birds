@@ -1,15 +1,79 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title></title>
-    </head>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<title>Photo Upload</title>
+<!-- Font Awesome -->
+<script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+<!-- Google Fonts -->
+<link href="https://fonts.googleapis.com/css?family=Bellefair|Dosis|Alex+Brush|Astloch|Almendra+Display|Shadows+Into+Light+Two" rel="stylesheet">
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<!-- Our CSS -->
+<link rel="stylesheet" type="text/css" href="/static/css/style.css">
+<!-- Favicon -->
+<link href="/static/images/favicon.ico" rel="icon" type="image/x-icon" />
+</head>
 
-    <body>
-<form action="classify" method = post enctype = multipart/form-data>
+<body>
+    <div class="header">
+        <div class="row">
+                <div class="col-md-1 goHome">
+                    <a href="/"><i class="fas fa-home"></i></a>
+                </div>
+            <div class="col-md-10"><h2>Image Upload</h2></div>
+            <div class="col-md-1"></div>
+        </div>    
+    </div>
+    <div class="container" id="imageUpload" style="padding-top: 50px;">
+        <div class="row">
+            <div class="col-md-2"></div>
+            <div class="col-md-8">
+                <div class="row">
+                    <div class="col-md-3"><form action="classify" method = post enctype = multipart/form-data><input type= "file" name="file"></div>
+                    <div class="col-md-2">
+                        <button type= "submit" name= "submit" style="border-radius: 5px">Upload Image</button></form>
+                    </div>
+                    <div class="col-md-4">
+                            <p>Have a picture of a wicked cool bird, but aren't sure what it is? Maybe we can help!
+                                Upload it here.
+                            </p>
+                    </div>
+                    <div class="col-md-3"></div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <!-- Images-->
+                <div id="polaroid" style="padding-top: 50px;">
+                    <!-- Image 1 -->
+                    <figure>
+                        <a title="what i don't even"><img src='https://lh3.googleusercontent.com/Bji6QOi3rQd18JzGVuDniw8KB--g7ZnYKxY793awlNusJlQSCPiI01WMs8i6vJ6HMg5An9ezeJFb-bO5Uj2CBIRsX0JCRxdeciJf7pfhyqHU1npaL-znIjc-f2_wYfFatbOxox09xw=w2400' alt="Potoo" title="Awesome Potoo"></a>
+                    </figure>
+                    <!-- Image 2 -->
+                    <figure>
+                        <a title="from my backyard!"><img src='https://lh3.googleusercontent.com/k3LptBjoBQ5t3PAo-kLc1zK-rEW9Xon7s7d9XAb80Zsvb4woYVvuG10728e8WQPPY01cSgxYxUsQPcORN6gvrIbd_LNdUi_mt5wKaPmfoGm04SuZp2vRpPPafOFDB4cCNBWHskvBPw=w2400' /></a>
+                    </figure>
+                    <!-- Image 3 -->
+                    <figure>
+                        <a title="crane?"><img src='https://lh3.googleusercontent.com/v7YDPtuHU0yl7615SD5hIMvUqIodLRkLUh1uhpxGWLnE9sCp-veJm4lcaiEsaV9d4JgtUt-v4eoxj8hGfjDT4WYVEK42d_2KOYiOpJc6iRSvV1Hx0LcRJcOOLOnt5TEQ2dSjp02MWA=w2400' /></a>
+                    </figure>
+                    <!-- Image 4 -->
+                    <figure>
+                        <a title="Ted's birb"><img src='https://lh3.googleusercontent.com/mhbtIqJ3ZgpAX69WryYPnER4prd9mFsQAInmOv3eVQIHo271z8zb3yty8zIMahUnlIO7WP6MWaBo4rHJD0k4DknWAwDK9fFjTBqwOhwm3Bxbs-UTbp52ZflFIXzkV36nRu0ZIJV-DQ=w2400' /></a>
+                    </figure>
+                    <!-- Image 5 -->
+                    <figure>
+                        <a title="austindudeguy's favorite"><img src='https://lh3.googleusercontent.com/P3n9VoUcZV9mhIVDAXyaEMcK8tlfrIUkX-aHuNbKQiFNGpZdP44AAxDjyGge8irluadUDRwM1L4wdqICHMizRqgyyAckY93-k3A2dEngP9psYDkY58DW1kQG_T0BTCSsPY5_vGc2OQ=w2400' /></a>
+                    </figure>
+                </div>
+            </div>
+        </div>
+    </div>
     
-    <input type= "file" name="file">
-   <button type = "submit" name = "submit">Upload Image</button>
-
-</form>
+        
 </body>
 </html>

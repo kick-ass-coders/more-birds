@@ -649,3 +649,26 @@ table {
 #birb-paginate {
     text-decoration: underline;
 }
+
+/* Image Uploads */
+#imageUpload p {
+    text-align: justify;
+}
+
+#imageUpload figure {
+    width: 180px;
+    height: auto;
+}
+
+#imageUpload img {
+    width: 170px;
+    height: auto;
+}
+
+#imageUpload #polaroid a:after {
+    font-size: 16px;
+    content: attr(title);
+    position: relative;
+    top: 10px;
+    font-family: 'Shadows Into Light Two', cursive;
+}
