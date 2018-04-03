@@ -221,7 +221,7 @@ def allowed_file(filename):
 def upload_start():
     return render_template('photoUpload.html')
 
-@app.route('/upload/classify', methods=['POST'])
+@app.route('/classify', methods=['POST'])
 def classify():
 
     if 'file' not in request.files:
