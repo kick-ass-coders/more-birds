@@ -400,7 +400,7 @@ figure, figcaption { /*add any other html5 elements you use*/
     padding-top: 5px;
 }
 
-figure:before { /*see the support section below to more info on using the :before psuedo element*/
+#polaroid figure:before { /*see the support section below to more info on using the :before psuedo element*/
     content: '';
     display: block;
     position: absolute;
@@ -416,7 +416,7 @@ figure:before { /*see the support section below to more info on using the :befor
     -ms-transform: rotate(-12deg);
     }
     /**The tape for the even numbered images needs to be rotated the opposite way, as the images are, and positioned on the other side of the frame, I've also changed the width slightly**/
-figure:nth-child(even):before {
+#polaroid figure:nth-child(even):before {
     left:150px;
     top: -15px;
     width: 55px;
@@ -602,20 +602,6 @@ table {
     font-family: 'Shadows Into Light Two', cursive;
 }
 
-/* Photo ID Page */
-#birdPick {
-    margin: 10px 20px !important; /*space between the images*/
-    padding: 3px 3px 10px 3px !important; /*size of the frame*/
-    /*give the frame's background colour a gradient*/
-    background: #eee6d8; /*fallback colour for browsers that don't support gradients*/
-    background: -webkit-linear-gradient(top, #ede1c9, #fef8e2 20%, #f2ebde 60%) !important;
-    background: -moz-linear-gradient(top, #ede1c9, #fef8e2 20%, #f2ebde 60%) !important;
-    background: -o-linear-gradient(top, #ede1c9, #fef8e2 20%, #f2ebde 60%) !important;
-    background: -ms-linear-gradient(top, #ede1c9, #fef8e2 20%, #f2ebde 60%) !important;
-    background: linear-gradient(top, #ede1c9, #fef8e2 20%, #f2ebde 60%) !important;
-    /*give the Polaroids a small drop shadow*/
-    -webkit-box-shadow: 4px 4px 8px -4px rgba(0, 0, 0, .75);
-    -moz-box-shadow: 4px 4px 8px -4px rgba(0, 0, 0, .75);
-    box-shadow: 4px 4px 8px -4px rgba(0, 0, 0, .75);
-}
+/* Photo ID */
+
 
