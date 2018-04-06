@@ -1,36 +1,10 @@
-function checkUrl(url) {
-  var request = false;
-  if (window.XMLHttpRequest) {
-          request = new XMLHttpRequest;
-  } else if (window.ActiveXObject) {
-          request = new ActiveXObject("Microsoft.XMLHttp");
-  }
-
-  if (request) {
-          request.open("GET", url);
-          if (request.status == 200) { return true; }
-  }
-
-  return false;
-}
-
-
 function speciesMap(species, days){
-  document.getElementById('speciesMap').innerHTML = 
-  "<div id='map' ><h1>No recent sightings<h1></div>";
-
   url = 'https://avian-adventure.herokuapp.com/speciesData/'+ species + "/" + days;
-
-  //var testUrl = checkUrl(url)
-
-  //if (testUrl === true){
-
   Plotly.d3.json(url, function(error, data){
-    document.getElementById('speciesMap').innerHTML = 
-    "<div id='map' ></div>";
     if (error) return console.warn(error);
 
-
+    document.getElementById('speciesMap').innerHTML = 
+    "<div id='map' ></div>";
     var OpenStreetMap = L.tileLayer('https://{s}.tile.openstreetmap.fr/hot/{z}/{x}/{y}.png', 
     {
       maxZoom: 18,
@@ -102,12 +76,5 @@ function speciesMap(species, days){
     };
     
     legend.addTo(map);
-  })
-/*} else {
-  var mapDiv = document.getElementById('speciesMap')
-  var h = document.createElement("H1");
-  var t = document.createTextNode("No species sightings recently");
-  h.appendChild(t);
-  document.body.appendChild(h);
-}*/
-}
+  }
+)}
