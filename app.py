@@ -77,6 +77,10 @@ def distr():
 def species():
     return render_template("species.html")
 
+@app.route("/spSearch/<spCode>")
+def spSearch(spCode):
+    return render_template("species2.html", code = spCode)
+
 @app.route("/birdTable")
 def birdTable():
     return render_template("birdTable.html")
