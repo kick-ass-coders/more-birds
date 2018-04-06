@@ -17,15 +17,17 @@ function checkUrl(url) {
 
 function speciesMap(species, days){
   document.getElementById('speciesMap').innerHTML = 
-  "<div id='map' ></div>";
+  "<div id='map' ><h1>No recent sightings<h1></div>";
 
   url = 'https://avian-adventure.herokuapp.com/speciesData/'+ species + "/" + days;
 
-  var testUrl = checkUrl(url)
+  //var testUrl = checkUrl(url)
 
-  if (testUrl === true){
+  //if (testUrl === true){
 
   Plotly.d3.json(url, function(error, data){
+    document.getElementById('speciesMap').innerHTML = 
+    "<div id='map' ></div>";
     if (error) return console.warn(error);
 
 
@@ -101,11 +103,11 @@ function speciesMap(species, days){
     
     legend.addTo(map);
   })
-} else {
+/*} else {
   var mapDiv = document.getElementById('speciesMap')
   var h = document.createElement("H1");
   var t = document.createTextNode("No species sightings recently");
   h.appendChild(t);
   document.body.appendChild(h);
-}
+}*/
 }
