@@ -85,6 +85,10 @@ def spSearch(spCode):
 def birdTable():
     return render_template("birdTable.html")
 
+@app.route("/birders")
+def birders():
+    return render_template("birders.html")
+
 # route that returns a list of sample names
 @app.route('/siteData/<ST>')
 def siteData(ST):
