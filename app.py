@@ -14,7 +14,7 @@ from sqlalchemy.ext.automap import automap_base
 from sqlalchemy.orm import Session
 from sqlalchemy import create_engine, inspect, func
 
-from splinter import Browser
+# from splinter import Browser
 from bs4 import BeautifulSoup as bs
 
 from flask import Flask, render_template, redirect, jsonify, request, url_for, send_from_directory
@@ -122,7 +122,7 @@ def birdData(ST):
             bird['img'] = 'no img'
             bird['audio'] = 'no audio'
             bird['link'] = 'no link'
-   
+
     return jsonify(birdsj)
 
 @app.route('/regionData/<Region>')
@@ -157,7 +157,7 @@ def birdRegData(Region):
            bird['img'] = 'no img'
            bird['audio'] = 'no audio'
            bird['link'] = 'no link'
- 
+
    return jsonify(birdsj)
 
 # Route that returns list of states
@@ -189,7 +189,7 @@ def regionCentroid():
 @app.route('/speciesData/<species>/<days>')
 def speciesData(species, days):
     speciesData = getSpeciesData.speciesData(species, days)
-    
+
     return speciesData
 
 @app.route('/birdDB')
@@ -215,7 +215,7 @@ def birdDBPrint(spCode):
 
     # populate dict with rows from results
     for row in results:
-        spRecord = {'code': row.Species_Code, 'comName': row.Common_Name, 
+        spRecord = {'code': row.Species_Code, 'comName': row.Common_Name,
         'img': row.Img_URL, 'audio': row.Audio_URL, 'link': row.Info_URL}
         data.append(spRecord)
 
@@ -251,9 +251,9 @@ def classify():
         top_category = spTable['category'][0]
         top_pct = round((spTable['probability'][0]*100),0)
 
-        return render_template('photoID.html', top_category = top_category, top_pct = top_pct, 
+        return render_template('photoID.html', top_category = top_category, top_pct = top_pct,
     img_file = f'/upload/classify/{filename}')
-    
+
 @app.route('/upload/classify/<filename>')
 def uploaded_file(filename):
     return send_from_directory(app.config['UPLOAD_FOLDER'],
