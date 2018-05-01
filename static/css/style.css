@@ -561,7 +561,7 @@ tr:nth-child(even) {
     background-color: #af966470;
 }
 
-table {
+#birdSearchTable {
     overflow-y: scroll;
     height: 400px;
     display: block;
